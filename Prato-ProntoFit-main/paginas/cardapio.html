@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PratoPronto</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="shortcut icon" href="../imagens/Logos/Favicoon do Trabalho.png" type="image/x-icon">
+    <script src="../scripts/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/9cea758d5a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- -------------------------- HEADER -------------------------- -->
+    
+    <div id="header">
+
+        <h1>
+            <a href="../index.html">
+                <span class="span01">
+                    <img src="../imagens/Logos/Logo site trabalho.png" alt="voltar para home">
+                </span>
+            </a>
+        </h1>
+
+        <nav>
+            <ul id="navbar">
+                <li role="menubar" class="menu_style"><a href="Cardapio.html"><span>CARDAPIO</span></a></li>
+                <li role="menubar" class="menu_style"><a href="#">PREMIUM</a></li>
+                <li role="menubar" class="menu_style"><a href="#">CONTATO</a></li>
+                <li role="menubar" class="menu_style"><a href="#">NOVIDADES</a></li>
+
+                <li role="menuitem" class="menu_style block"><a href="#">LOGIN</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </nav>
+ 
+        <div id="adicionais">
+            <div id="busca">
+                <form role="search" class="form_nav">
+                    <input type="text" placeholder="Buscar" name="search">
+                    <span class="lupa"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </form>
+            </div>
+            
+            <i class="fa-solid fa-user icon"></i>
+            <i class="fa-solid fa-heart icon"></i>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping icon"></i></a>
+        </div>
+
+        <div class="mobile">
+            <i class="fa-solid fa-cart-shopping icon"></i>
+            <i class="fa-solid fa-bars" id="bar"></i>
+        </div>
+
+    </div>
+
+    <!-- -------------------------- BODY -------------------------- -->
+
+    <section id="bannerPages" class="Cardapio">
+        <h2>#CARDÁPIO</h2>
+        <h4>Delicias à sua escolha!</p>
+    </section>
+
+    <section id="produtos" class="section_p1">
+
+        <!-- <p>Refinamento Fitness</p>
+        <h2>PRATOS PRINCIPAIS</h2>
+        <p>Sabor que nutre, ingredientes que cuidam!</p> -->
+
+        <div class="pro_container">
+
+                <div class="pro" onclick="window.location.href='produto.html';">
+                    <img src="../imagens/Receitas/img01.png" alt="Imagem01">
+                    <div class="descricao">
+                        <span>300 kcal</span>
+                        <h5><a href="produto.html">Wrap Integral com Atum e Vegetais</a></h5>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>R$40,00</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+                </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img02.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>400 kcal</span>
+                    <h5>Salada de Quinoa com Frango Grelhado e Abacate</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$40,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img03.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>150 kcal</span>
+                    <h5>Omelete de Clara de Ovo com Espinafre e Tomate</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$40,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img04.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>350 kcal</span>
+                    <h5>Salmão com Legumes Assados no Forno</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$40,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img05.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>200 kcal</span>
+                    <h5>Bolo de Banana Fit com Aveia:</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$40,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img06.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>450 kcal</span>
+                    <h5>Hambúrguer de Frango Caseiro com Salada Colslaw</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$40,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img015.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>300 kcal</span>
+                    <h5>Bolo de Banana com Aveia e Canela </h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$40,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img08.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>200 Kcal</span>
+                    <h5>Panqueca de Aveia com Banana e Frutas</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$40,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro  mobile_produto">
+                <img src="../imagens/Receitas/img017.png" alt="Imagem017">
+                <div class="descricao">
+                    <span>150 Kcal</span>
+                    <h5>Creme de Manga com Chia e Hortelã</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$40,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img09.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>250 kcal</span>
+                    <h5>Smoothie Verde Refrescante</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$20,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img010.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>120 kcal</span>
+                    <h5>Suco Detox de Laranja, Cenoura e Gengibre</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$20,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img011.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>100 kcal</span>
+                    <h5>Chá de Hibisco com Morango e Hortelã</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$20,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img012.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>0 kcal</span>
+                    <h5>Água Aromática de Maçã Verde com Limão e Canela</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$20,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img013.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>0 kcal</span>
+                    <h5>Água de Coco com Abacaxi e Hortelã </h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$20,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img019.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>100 kcal</span>
+                    <h5>Suco de maçã com cenoura e limão</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$20,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img07.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>250 kcal</span>
+                    <h5>Smoothie de Frutas Vermelhas com Iogurte Grego</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$20,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro">
+                <img src="../imagens/Receitas/img020.png" alt="Imagem01">
+                <div class="descricao">
+                    <span>100 Kcal</span>
+                    <h5>Suco de maçã com morango e iogurte</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$20,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+            <div class="pro mobile_produto">
+                <img src="../imagens/Receitas/img018.png" alt="Imagem018">
+                <div class="descricao">
+                    <span>250 Kcal</span>
+                    <h5>Pudim de Chia com Frutas Vermelhas</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>R$20,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping icon cart"></i> </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="button_page" class="section_p1">
+        <div class="box_page">
+            <ol class="list_number">
+                <a href="#" class="link_number number_active">1</a>
+                <a href="#" class="link_number">2</a>
+                <a href="#" class="link_number">></a>
+            </ol>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section_p1 section_m1">
+        <div class="newstext">
+            <h4>Nos siga no boletim informativo</h4>
+            <p>Receba atualizações por e-mail sobre nossa nova loja e <span>ofertas especiais</span>.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Seu endereço de email">
+            <button class="normal">Inscrever-se</button>
+        </div>
+    </section>
+
+    <footer class="section_p1">
+        <div class="col">
+            <img src="../imagens/Logos/Logo site trabalho.png" alt="Logo" class="logo">
+            <h4>Contatos</h4>
+            <p><strong>Localização:</strong> Goiás, Cidade Ocidental</p>
+            <p><strong>Telefone:</strong> +55 61 99553-7078/9834-1756</p>
+            <p><strong>Horas:</strong> 10:00 - 22:00. Segunda - Sábado</p>
+            <p><Strong>Email:</Strong> saude.nutricional24@gmail.com</p>
+            <div class="follow">
+                <h4>Siga-nos</h4>
+                <div class="icons">
+                    <a href="https://m.facebook.com/profile.php?id=61557064322547name=xhp_nt__fb__action__open_user"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/nutribem.unidesc/"><i class="fa-brands fa-instagram"></i></a>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <a href="https://x.com/NUnidesc"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Sobre nós</a>
+            <a href="#">Informação de entrega</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+            <a href="#">Contate-nos</a>
+        </div>
+
+        <div class="col">
+            <h4>Minha conta</h4>
+            <a href="#">Entrar</a>
+            <a href="#">Visualizar</a>
+            <a href="#">Minha Lista de Desejos</a>
+            <a href="#">Acompanhar o meu pedido</a>
+            <a href="#">Ajuda</a>
+        </div>
+
+        <div class="col install">
+            <h4>Instalar App</h5>
+                <p>Em Breve na App Store e Google Pay</p>
+                <div class="row">
+                    <img src="../imagens/Pay/app.jpg" alt="App Store">
+                    <img src="../imagens/Pay/play.jpg" alt="Play Store">
+                </div>
+                <p>Gateways de Pagamento Seguros</p>
+                <img src="../imagens/Pay/pay.png" alt="Pays">
+        </div>
+
+        <div class="copyright">
+            <p>© 2024 - <a href="https://github.com/Batista204" target="_blank">Arthur de Andrade Batista</a></p>
+        </div>
+    </footer>
+
+    <button id="scrollToTop" onclick="scrollToTop()">
+        <i class="fa-sharp fa-solid fa-arrow-up"></i>
+    </button>
+
+    <div class="Cookie">
+        <div class="headerCookies">
+            <i class="fa-solid fa-cookie-bite"></i>
+            <h2>Cookie Consent</h2>
+        </div>
+
+        <div class="bodyCookies">
+            <p>Este site utiliza cookies para ajudá-lo a ter uma experiência de navegação superior e mais relevante no
+                site.
+                <a href="https://policies.google.com/terms?hl=pt-BR" target="_blank">Saiba mais...</a>
+            </p>
+        </div>
+
+        <div class="buttonCookies">
+            <button class="buttons" id="aceitarBtn">Aceitar</button>
+            <button class="buttons">Recusar</button>
+        </div>
+    </div>
+    
+</body>
+</html>
